@@ -13,6 +13,10 @@
 		336ED97B2515F295000349FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336ED9792515F295000349FE /* Main.storyboard */; };
 		336ED97D2515F296000349FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336ED97C2515F296000349FE /* Assets.xcassets */; };
 		336ED9802515F296000349FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336ED97E2515F296000349FE /* LaunchScreen.storyboard */; };
+		336ED98A2515F706000349FE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ED9892515F706000349FE /* NextViewController.swift */; };
+		336ED996251730F1000349FE /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336ED995251730F1000349FE /* bgm.mp3 */; };
+		336ED999251731FF000349FE /* lastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ED998251731FF000349FE /* lastViewController.swift */; };
+		336ED99D25173B71000349FE /* kira2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336ED99C25173B71000349FE /* kira2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		336ED97C2515F296000349FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336ED97F2515F296000349FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336ED9812515F296000349FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336ED9892515F706000349FE /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		336ED995251730F1000349FE /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		336ED998251731FF000349FE /* lastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastViewController.swift; sourceTree = "<group>"; };
+		336ED99C25173B71000349FE /* kira2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kira2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				336ED9732515F295000349FE /* AppDelegate.swift */,
 				336ED9752515F295000349FE /* SceneDelegate.swift */,
 				336ED9772515F295000349FE /* ViewController.swift */,
+				336ED9892515F706000349FE /* NextViewController.swift */,
+				336ED998251731FF000349FE /* lastViewController.swift */,
 				336ED9792515F295000349FE /* Main.storyboard */,
 				336ED97C2515F296000349FE /* Assets.xcassets */,
 				336ED97E2515F296000349FE /* LaunchScreen.storyboard */,
 				336ED9812515F296000349FE /* Info.plist */,
+				336ED99C25173B71000349FE /* kira2.mp3 */,
+				336ED995251730F1000349FE /* bgm.mp3 */,
 			);
 			path = swift5daimeiro;
 			sourceTree = "<group>";
@@ -124,9 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336ED99D25173B71000349FE /* kira2.mp3 in Resources */,
 				336ED9802515F296000349FE /* LaunchScreen.storyboard in Resources */,
 				336ED97D2515F296000349FE /* Assets.xcassets in Resources */,
 				336ED97B2515F295000349FE /* Main.storyboard in Resources */,
+				336ED996251730F1000349FE /* bgm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336ED999251731FF000349FE /* lastViewController.swift in Sources */,
 				336ED9782515F295000349FE /* ViewController.swift in Sources */,
+				336ED98A2515F706000349FE /* NextViewController.swift in Sources */,
 				336ED9742515F295000349FE /* AppDelegate.swift in Sources */,
 				336ED9762515F295000349FE /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmmi.swift5daimeiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmmi.swift5daimeiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

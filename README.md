@@ -1,4 +1,4 @@
-## アプリ名
+## :globe_with_meridians:アプリ名
 daimeiro
 
 ## 概要
